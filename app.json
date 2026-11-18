@@ -32,7 +32,18 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-secure-store",
+      "expo-image",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La app accede a tus fotos para que puedas enviarlas en el chat.",
+          "cameraPermission": "La app usa la cámara para que puedas tomar y enviar fotos en el chat.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
